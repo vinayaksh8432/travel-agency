@@ -1,0 +1,157 @@
+.services {
+   display: flex;
+}
+.pattern {
+   background: url("../assets/backgrounds/pattern.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   padding: 0 100px;
+}
+.pattern > div {
+   padding-top: 50px;
+}
+.pattern > h1,
+.pattern > h2 {
+   padding-bottom: 20px;
+}
+.pattern h1 {
+   font-size: 37px;
+   color: #000000;
+   font-weight: 900;
+   font-family: "Montserrat";
+}
+.pattern h2 {
+   font-size: 37px;
+   color: #000000;
+   font-weight: 400;
+   font-family: "Montserrat";
+}
+.pattern h3 {
+   font-size: 18px;
+   color: #040404;
+   font-weight: 500;
+   font-family: "Lato";
+}
+.points > div {
+   display: flex;
+   gap: 10px;
+   padding-bottom: 30px;
+}
+.points h1 {
+   font-size: 18px;
+   color: #040404;
+   font-weight: 500;
+   font-family: "Lato";
+}
+.bestService {
+   padding: 50px 0;
+}
+.ourbest {
+   margin: 0 auto;
+   width: fit-content;
+   text-align: center;
+   padding-bottom: 50px;
+}
+.ourbest h1 {
+   font-size: 37px;
+   color: #000000;
+   font-weight: 900;
+   font-family: "Montserrat";
+   text-align: center;
+}
+.ourbest h2 {
+   font-size: 37px;
+   color: #000000;
+   font-weight: 500;
+   font-family: "Montserrat";
+   text-align: center;
+}
+.serviceIcon {
+   display: flex;
+   align-items: center;
+}
+.best-Services {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 30px 150px;
+   width: fit-content;
+   margin: 0 auto;
+   padding: 0 200px;
+}
+.best-Services h1 {
+   font-size: 22px;
+   color: #151515;
+   font-weight: 700;
+   font-family: "Montserrat";
+}
+.best-Services h2 {
+   line-height: 30px;
+   font-size: 18px;
+   color: #040404;
+   font-weight: 600;
+   font-family: "Lato";
+}
+.best-Services img {
+   width: 40px;
+   padding-right: 50px;
+}
+.budgets {
+   background: url("../assets/backgrounds/city.png") no-repeat;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   padding: 75px 0;
+}
+.budget {
+   display: flex;
+   gap: 50px;
+}
+.budgets h1 {
+   text-align: center;
+}
+.budgets h2 {
+   padding-bottom: 50px;
+}
+.budget div {
+   background: #fff;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 383px;
+   height: 412px;
+}
+.budget img {
+   width: 50px;
+}
+.budget div h1 {
+   font-size: 24px;
+   color: #000000;
+   font-weight: 800;
+   font-family: "Montserrat";
+   padding: 25px 25px;
+}
+.budget div h2 {
+   background: #f0d839;
+   border-radius: 3px;
+   text-align: center;
+   padding: 10px 0;
+   width: 102%;
+}
+.budget ul {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding-top: 20px;
+}
+.budget ul li img {
+   width: 30px;
+   padding-right: 10px;
+   padding: 5px 0;
+}

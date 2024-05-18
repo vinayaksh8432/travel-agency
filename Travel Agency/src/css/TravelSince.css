@@ -1,0 +1,95 @@
+.travelSince {
+   display: flex;
+   align-items: center;
+   width: 80%;
+   margin: 0 auto;
+   padding: 30px 0;
+   font-weight: bold;
+}
+.travelSince h1 {
+   font-size: 37px;
+   color: #000000;
+   font-weight: 900;
+   font-family: "Montserrat";
+}
+.travelSince h2 {
+   font-size: 37px;
+   color: #000000;
+   font-weight: 400;
+   font-family: "Montserrat";
+}
+.leftSection {
+   padding-right: 40px;
+}
+.travelFlow ul li {
+   height: 50px;
+   position: relative;
+   text-align: center;
+   background: #00a4ff;
+}
+.travelFlow li:nth-child(2) {
+   background: #e4e4e4;
+   padding-left: 35px;
+}
+.travelFlow li:nth-child(3) {
+   background: #fff;
+   padding-left: 35px;
+}
+.travelFlow li:nth-child(1)::after {
+   content: "";
+   position: absolute;
+   left: 100%;
+   border: 35px solid transparent;
+   border-left: 20px solid #00a4ff;
+   z-index: 99;
+}
+.travelFlow li:nth-child(2)::after {
+   content: "";
+   position: absolute;
+   left: 100%;
+   border: 35px solid transparent;
+   border-left: 20px solid #e4e4e4;
+   z-index: 99;
+}
+.rightSection {
+   display: flex;
+   flex-direction: column;
+}
+.rightSection div {
+   padding-bottom: 40px;
+}
+.travelFlow {
+   display: flex;
+   align-items: center;
+}
+.travelFlow img {
+   width: 40px;
+   padding-right: 10px;
+}
+.travelFlow ul {
+   border: solid 3px #00a4ff;
+}
+.travelFlow ul li {
+   padding: 10px 30px;
+   font-size: 18px;
+}
+.travelFlow p {
+   font-size: 18px;
+   color: #040404;
+   font-weight: 500;
+   font-family: "Lato";
+   padding-right: 100px;
+}
+.rightSection button {
+   width: 30%;
+   height: 50px;
+   border-radius: 6px;
+   border: none;
+   background-image: linear-gradient(180deg, #f8df3b 0%, #ead137 100%);
+   font-size: 15px;
+   text-transform: uppercase;
+   color: #000000;
+   font-weight: 500;
+   font-family: "Montserrat";
+   text-align: center;
+}

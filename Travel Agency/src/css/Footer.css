@@ -1,0 +1,91 @@
+.logo {
+   background: url("../assets/backgrounds/FooterBg.png");
+   /* background-size: cover; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.head {
+   color: #fff;
+   padding-top: 150px;
+   padding-bottom: 100px;
+}
+
+.head h1 {
+   font-size: 37px;
+   font-weight: 700;
+   font-family: "Montserrat";
+   text-align: center;
+}
+.head h2 {
+   font-size: 32px;
+   font-weight: 400;
+   text-align: center;
+}
+.logo-img img {
+   position: absolute;
+   width: 150px;
+   translate: -50%;
+}
+.content {
+   margin-top: 130px;
+   padding-top: 100px;
+   background: #fff;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+}
+.content h1 {
+   font-size: 17px;
+   letter-spacing: 0px;
+   text-transform: uppercase;
+   color: #262626;
+   font-weight: 700;
+   font-family: "Lato";
+}
+.content h2 {
+   font-size: 16px;
+   letter-spacing: 0px;
+   color: #262626;
+   font-weight: 400;
+   font-family: "Lato";
+}
+.contact-mail,
+.contact-us,
+.contact-add {
+   display: flex;
+   align-items: flex-start;
+   gap: 30px;
+}
+.social-media-icons {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+   padding-top: 100px;
+   padding-bottom: 75px;
+}
+
+.social-media-icons img {
+   border-radius: 50%;
+   padding: 10px;
+   border: 3px solid #f0d839;
+   aspect-ratio: 3/2;
+   object-fit: contain;
+   width: 40px;
+   height: 40px;
+}
+.designedby {
+   background-color: #f0d839;
+   padding: 25px;
+}
+.designedby h1 {
+   font-size: 17px;
+   letter-spacing: 0px;
+   line-height: 50px;
+   color: #000000;
+   font-weight: 700;
+   font-family: "Lato";
+   text-align: center;
+}

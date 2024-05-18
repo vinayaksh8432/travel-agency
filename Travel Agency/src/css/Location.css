@@ -1,0 +1,181 @@
+.TouristLocations {
+   background: url("../assets/backgrounds/scenery.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px 0;
+}
+.TouristLocations h1 {
+   font-size: 37px;
+   color: #000000;
+   font-weight: 900;
+   font-family: "Montserrat";
+   text-align: center;
+   padding-bottom: 10px;
+}
+.TouristLocations h2 {
+   font-size: 37px;
+   color: #000000;
+   font-weight: 600;
+   font-family: "Montserrat";
+   text-align: center;
+}
+.packAndGo,
+.locationdiv {
+   padding-top: 30px;
+}
+.locationdiv {
+   display: flex;
+   align-items: center;
+   margin-bottom: 100px;
+}
+.ThreeLocations {
+   overflow: hidden;
+   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+      rgba(0, 0, 0, 0.23) 0px 6px 6px;
+   border-radius: 10px;
+}
+.ThreeLocations:nth-child(1) {
+   background: #fff;
+   width: min-content;
+   translate: 10px;
+}
+.ThreeLocations:nth-child(2) {
+   background: #fff;
+   width: min-content;
+   z-index: 99;
+   border-radius: 10px 10px 0 0;
+}
+
+.ThreeLocations:nth-child(2)::after {
+   content: "";
+   position: absolute;
+   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+      rgba(0, 0, 0, 0.23) 0px 6px 6px;
+   background: #fff;
+   height: 307px;
+   z-index: 99;
+   width: 425px;
+   clip-path: polygon(100% 0, 0% 0%, 50% 30%);
+}
+.ThreeLocations:nth-child(3) {
+   background: #fff;
+   width: min-content;
+   translate: -10px;
+}
+.ThreeLocations div {
+   padding: 10px 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   position: relative;
+   padding-bottom: 20px;
+}
+.ThreeLocations h1 {
+   font-size: 20px;
+   color: #000000;
+   font-weight: 400;
+   font-family: "Montserrat";
+   padding-bottom: 10px;
+}
+.ThreeLocations h2 {
+   font-size: 28px;
+   color: #000000;
+   font-weight: 900;
+   font-family: "Montserrat";
+   padding-bottom: 10px;
+}
+.ThreeLocations p {
+   font-size: 17px;
+   color: #040404;
+   font-weight: 500;
+   font-family: "Lato";
+   padding-bottom: 10px;
+}
+.ThreeLocations h3 {
+   font-size: 30px;
+   color: #000000;
+   font-weight: 900;
+   font-family: "Montserrat";
+   padding-bottom: 10px;
+}
+.ThreeLocations button {
+   border: none;
+   padding: 10px 0;
+   /* width: 157px; */
+   padding: 15px 30px;
+   text-align: center;
+   font-weight: bold;
+   /* height: 41px; */
+   border-radius: 4px;
+   background-image: linear-gradient(180deg, #f8df3b 0%, #ead137 100%);
+}
+.areaLooks {
+   background: url("../assets/backgrounds/areabg.png");
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+.looksdiv {
+   display: flex;
+   /* grid-template-rows: 1fr 1fr; */
+   /* grid-template-columns: 1fr 1fr; */
+   width: min-content;
+   margin: 0 auto;
+   gap: 50px;
+   padding-bottom: 40px;
+}
+.blog {
+   background: #fff;
+   border-radius: 10px;
+   overflow: hidden;  
+}
+.blog button {
+   translate: -50% -50%;
+   position: absolute;
+   font-weight: bold;
+   padding: 15px 30px;
+   border: none;
+   border-radius: 5px;
+   background-image: linear-gradient(180deg, #f8df3b 0%, #ead137 100%);
+}
+.blog h1 {
+   font-size: 25px;
+   color: #000000;
+   font-weight: 900;
+   font-family: "Montserrat";
+}
+.blog p {
+   font-size: 18px;
+   color: #040404;
+   font-weight: 500;
+   font-family: "Lato";
+   padding: 10px 45px;
+   padding-top: 10px;
+   padding-bottom: 25px;
+}
+.blogdiv {
+   padding-top: 40px;
+}
+.looksText {
+   padding: 40px 0;
+}
+.looksText h1 {
+   font-size: 37px;
+   color: #000000;
+   font-weight: 900;
+   font-family: "Montserrat";
+   text-align: center;
+}
+.looksText h2 {
+   font-size: 37px;
+   line-height: 50px;
+   color: #000000;
+   font-weight: 400;
+   font-family: "Montserrat";
+   text-align: center;
+}

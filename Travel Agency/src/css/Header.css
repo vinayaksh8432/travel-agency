@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: "Montserrat", sans-serif;
+}
+
+body,
+html {
+   width: 100%;
+}
+
+header {
+   /* margin-top: 10px; */
+   padding: 17px 12vw;
+   background-color: rgba(0, 0, 0, 0.388);
+   color: #fff;
+}
+
+.headerTop {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 9px;
+}
+
+.contact {
+   display: flex;
+   align-items: center;
+   gap: 7vw;
+}
+
+.contact > div {
+   gap: 10px;
+}
+
+.headerTopRight {
+   display: flex;
+   gap: 8vw;
+}
+
+.icons {
+   display: flex;
+}
+.icons ul {
+   display: flex;
+   gap: 16px;
+}
+.accounts {
+   display: flex;
+   /* width: 15%; */
+   justify-content: space-between;
+   gap: 10px;
+}
+.accounts > div {
+   gap: 10px;
+}
+.phone,
+.mail,
+.icons,
+ul,
+li,
+a,
+.accounts,
+.login,
+.signup {
+   display: flex;
+   align-items: center;
+   list-style: none;
+   text-decoration: none;
+}
+
+hr {
+   /* width: 80%; */
+   border: none;
+   height: 3px;
+   background: #fff;
+   opacity: 0.388;
+   margin: 10px 0;
+}
+
+.headerBottom {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.headline {
+   display: flex;
+   flex-direction: column;
+}
+.headline h1 {
+   margin: 0;
+   font-size: 33px;
+}
+.headline h2 {
+   font-size: 12px;
+}
+
+.links ul {
+   display: flex;
+   gap: 2vw;
+}
+.links ul li {
+   font-size: 16px;
+}
+.links ul li a {
+   color: #fff;
+   font-weight: 500;
+}
+.links .active {
+   text-decoration: underline;
+   text-decoration-color: #ffdd00;
+   text-underline-offset: 4.25vh;
+   text-decoration-thickness: 5px;
+}
+
+

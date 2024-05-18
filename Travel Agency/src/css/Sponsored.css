@@ -1,0 +1,76 @@
+/* .sponsor{
+    background: url("../assets/backgrounds/shed.png");
+    background-size: cover;
+} */
+.sponsor {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+   padding: 50px;
+}
+.sponsoredIcons ul img {
+   width: 30px;
+   padding-bottom: 10px;
+}
+.sponsorContent {
+   translate: -25%;
+   background: #fff;
+   padding: 25px 40px;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+      rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.sponsorContent h1 {
+   font-size: 38px;
+   color: #000000;
+   font-weight: 900;
+   font-family: "Montserrat";
+}
+.sponsorContent h2 {
+   font-size: 24px;
+   color: #000000;
+   font-weight: 400;
+   font-family: "Montserrat";
+}
+.sponsoredIcons ul {
+   display: flex;
+   gap: 25px;
+}
+.sponsoredIcons ul li {
+   display: flex;
+   flex-direction: column;
+   font-size: 20px;
+   color: #000000;
+   font-weight: 500;
+   font-family: "Montserrat";
+   text-align: center;
+}
+.sponsorContent p {
+   font-size: 16px;
+   color: #040404;
+   font-weight: bold;
+   font-family: "Lato";
+}
+.sponsorContent div,
+.sponsorContent p {
+   /* padding-bottom: 10px; */
+   padding: 15px 0;
+}
+.sponsorContent h3 {
+   font-size: 50px;
+   color: #000000;
+   font-weight: 900;
+   font-family: "Montserrat";
+   text-align: center;
+}
+.priceandbutton {
+   display: flex;
+   gap: 30px;
+   align-items: center;
+}
+.priceandbutton button {
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   background-image: linear-gradient(180deg, #f8df3b 0%, #ead137 100%);
+}
