@@ -55,7 +55,7 @@ function Header() {
                   </div>
                   <div className="signup">
                      <img src={key} width={20} alt="" />
-                     <h2>Sign Up</h2>
+                     <h2>SignUp</h2>
                   </div>
                </div>
             </div>

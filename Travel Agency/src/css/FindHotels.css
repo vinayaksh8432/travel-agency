@@ -57,3 +57,16 @@
    padding: 7px 30px;
    border-radius: 5px;
 }
+@media screen and (max-width: 900px) {
+   .form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+   }
+}
+@media screen and (max-width: 425px) {
+   .form {
+      display: flex;
+      flex-direction: column;
+      align-items: baseline;
+   }
+}

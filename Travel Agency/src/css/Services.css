@@ -9,7 +9,7 @@
    display: flex;
    justify-content: center;
    flex-direction: column;
-   padding: 0 100px;
+   padding: 40px 100px;
 }
 .pattern > div {
    padding-top: 50px;
@@ -101,6 +101,7 @@
 }
 .budgets {
    background: url("../assets/backgrounds/city.png") no-repeat;
+   background-size: cover;
    display: flex;
    justify-content: center;
    flex-direction: column;
@@ -109,6 +110,9 @@
 }
 .budget {
    display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding: 0 35px;
    gap: 50px;
 }
 .budgets h1 {
@@ -124,7 +128,7 @@
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   width: 383px;
+   /* width: 383px; */
    height: 412px;
 }
 .budget img {
@@ -154,4 +158,19 @@
    width: 30px;
    padding-right: 10px;
    padding: 5px 0;
+}
+@media screen and (max-width: 900px) {
+   .best-Services {
+      padding: 0;
+   }
+}
+@media screen and (max-width: 550px) {
+   .best-Services {
+      grid-template-columns: auto;
+   }
+}
+@media screen and (max-width: 1250px) {
+   .services {
+      flex-direction: column;
+   }
 }

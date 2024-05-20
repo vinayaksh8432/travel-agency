@@ -1,6 +1,5 @@
 .logo {
    background: url("../assets/backgrounds/FooterBg.png");
-   /* background-size: cover; */
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -62,9 +61,9 @@
    display: flex;
    align-items: center;
    justify-content: center;
+   flex-wrap: wrap;
    gap: 30px;
-   padding-top: 100px;
-   padding-bottom: 75px;
+   padding: 100px 25px 75px 25px;
 }
 
 .social-media-icons img {
@@ -88,4 +87,15 @@
    font-weight: 700;
    font-family: "Lato";
    text-align: center;
+}
+@media screen and (max-width: 675px) {
+   .logo {
+      background-size: cover;
+   }
+   .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+   }
 }

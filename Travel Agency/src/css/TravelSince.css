@@ -1,7 +1,7 @@
 .travelSince {
    display: flex;
    align-items: center;
-   width: 80%;
+   width: min-content;
    margin: 0 auto;
    padding: 30px 0;
    font-weight: bold;
@@ -70,7 +70,7 @@
    border: solid 3px #00a4ff;
 }
 .travelFlow ul li {
-   padding: 10px 30px;
+   padding: 10px 20px;
    font-size: 18px;
 }
 .travelFlow p {
@@ -92,4 +92,32 @@
    font-weight: 500;
    font-family: "Montserrat";
    text-align: center;
+}
+@media screen and (max-width: 1024px) {
+   .travelSince {
+      width: 100%;
+   }
+}
+@media screen and (max-width: 930px) {
+   .travelSince {
+      flex-direction: column;
+   }
+   .leftSection {
+      padding: 0;
+   }
+   .rightSection {
+      width: 50%;
+   }
+}
+@media screen and (max-width: 620px) {
+   .travelFlow {
+      display: none;
+      align-items: flex-start;
+   }
+}
+@media screen and (max-width: 425px) {
+   .leftSection img {
+      width: 50%;
+      padding-left: 100px;
+   }
 }

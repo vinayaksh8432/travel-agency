@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-
 * {
    margin: 0;
    padding: 0;
@@ -116,4 +115,21 @@ hr {
    text-decoration-thickness: 5px;
 }
 
+@media screen and (max-width: 768px) {
+   header {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+   }
 
+   .phone,
+   .mail,
+   .links {
+      display: none;
+   }
+}
+@media screen and (max-width: 375px) {
+   .accounts h2 {
+      font-size: 8px;
+   }
+}

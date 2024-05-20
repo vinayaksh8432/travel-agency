@@ -132,7 +132,7 @@
 .blog {
    background: #fff;
    border-radius: 10px;
-   overflow: hidden;  
+   overflow: hidden;
 }
 .blog button {
    translate: -50% -50%;
@@ -178,4 +178,40 @@
    font-weight: 400;
    font-family: "Montserrat";
    text-align: center;
+}
+
+@media screen and (max-width: 1400px) {
+   .looksdiv {
+      width: 1000px;
+   }
+   .looksdiv img {
+      width: 300px;
+   }
+}
+@media screen and (max-width: 1000px) {
+   .looksdiv {
+      display: flex;
+      flex-direction: column;
+      width: min-content;
+   }
+   .looksdiv p {
+      font-size: 10px;
+   }
+}
+@media screen and (max-width: 1200px) {
+   .locationdiv {
+      width: 80%;
+   }
+}
+@media screen and (max-width: 768px) {
+   .locationdiv {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+   }
+}
+@media screen and (max-width: 425px) {
+   .ThreeLocations {
+      scale: 0.75;
+   }
 }

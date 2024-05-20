@@ -39,10 +39,7 @@ export default function TravelSince() {
                      temporibus quidem laudantium eos nostrum quas quos iste
                      veniam eum assumenda! Natus, cumque et quas sit magni
                      impedit in voluptate, quaerat, eos voluptatem provident
-                     doloremque? Odio, rerum repellat, sit est esse, cum
-                     expedita atque earum aperiam quia nobis adipisci tempore
-                     doloremque vitae excepturi reiciendis temporibus? Ipsum
-                     minima officia similique natus!
+                     doloremque? Odio, rerum repellat, sit est esse
                   </p>
                </div>
                <button>Click Here</button>
