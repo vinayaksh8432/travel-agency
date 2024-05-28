@@ -7,6 +7,7 @@ import vk from "../assets/headerIcons/vk.svg";
 import youtube from "../assets/headerIcons/youtube.svg";
 import user from "../assets/headerIcons/user.svg";
 import key from "../assets/headerIcons/key.svg";
+import burger from "../assets/headerIcons/burger.svg";
 
 // Contact Icons
 import pin from "../assets/contactIcons/pin.svg";
@@ -62,18 +63,28 @@ import shed from "../assets/backgrounds/shed.png";
 import star from "../assets/reviewIcons/star.svg";
 import avatar from "../assets/reviewIcons/avatar.png";
 
-export { phoneIcon, mailIcon, facebook, google, vk, youtube, user, key };
+export {
+  phoneIcon,
+  mailIcon,
+  facebook,
+  google,
+  vk,
+  youtube,
+  user,
+  key,
+  burger,
+};
 
 export { pin, email, mobile, gps };
 
 export {
-   facebookBlack,
-   googleBlack,
-   vkBlack,
-   youtubeBlack,
-   linkedinBlack,
-   diggBlack,
-   xblack,
+  facebookBlack,
+  googleBlack,
+  vkBlack,
+  youtubeBlack,
+  linkedinBlack,
+  diggBlack,
+  xblack,
 };
 
 export { train, check };

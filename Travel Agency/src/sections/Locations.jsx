@@ -12,7 +12,7 @@ export default function Location() {
                <h1>Pack and GO</h1>
                <h2>Awesome Tours</h2>
             </div>
-            <div className="locationdiv">
+            <div className="locationdiv" id="page1">
                {locations.map((item, index) => (
                   <Locations
                      key={index}

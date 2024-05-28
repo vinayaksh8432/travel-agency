@@ -8,7 +8,7 @@ import BestServices from "../components/BestServices";
 export default function Services() {
    return (
       <>
-         <div className="services">
+         <div className="services" id="page3">
             <img src={train} alt="" />
             <div className="pattern">
                <h1>Trusted Since 2001</h1>

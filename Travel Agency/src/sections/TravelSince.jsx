@@ -5,7 +5,7 @@ import { planeWhite, carBlack, bank } from "../assets";
 export default function TravelSince() {
    return (
       <>
-         <div className="travelSince">
+         <div className="travelSince" id="page5">
             <div className="leftSection">
                <img src={man} alt="" />
             </div>

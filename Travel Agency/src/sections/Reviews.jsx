@@ -6,7 +6,7 @@ export default function Reviews() {
 
    return (
       <>
-         <div className="review">
+         <div className="review" id="page2">
             <div>
                <h1>Customer Reviews</h1>
                <h2>We are Travel Agent</h2>

@@ -3,7 +3,7 @@ import "../css/Sponsored.css";
 export default function Sponsored() {
    return (
       <>
-         <div className="sponsor">
+         <div className="sponsor" id="page4">
             <img src={shed} alt="" />
             <div className="sponsorContent">
                <div>
